@@ -1,4 +1,11 @@
 [[package]]
 name = "shiny_cli_utils"
+version = "0.1.1-dev"
+
+[[package]]
+name = "simple"
 version = "0.1.0"
+dependencies = [
+ "shiny_cli_utils 0.1.1-dev",
+]
 

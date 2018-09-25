@@ -1,9 +1,5 @@
-[package]
-name = "shiny_cli_utils"
-description = "Your toolbox to create nice-looking CLIs using rust"
-repository = "https://github.com/m1m3-50/shiny_cli_utils.git"
-version = "0.1.0"
-authors = ["Aleksander Zien <Aleks@nderZien.com>"]
-license = "MIT"
-
-[dependencies]
+[workspace]
+members = [
+  "lib/",
+  "examples/simple",
+]
